@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.slider {
+  display: flex;
+  gap: 20px;
+  will-change: transform;
+
+  img {
+    width: 100px;
+    height: auto;
+    flex-shrink: 0;
+  }
+}
