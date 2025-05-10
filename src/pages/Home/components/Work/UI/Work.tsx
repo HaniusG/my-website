@@ -1,5 +1,4 @@
 import ProjectLink from '@/components/ProjectLink'
-import React from 'react' 
 import styles from './Work.module.scss'
 
 

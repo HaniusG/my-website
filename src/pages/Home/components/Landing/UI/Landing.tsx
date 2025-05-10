@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Landing.module.scss";
 import Button from "@/components/Button";
 import TechSlider from "@/components/TechSlider";

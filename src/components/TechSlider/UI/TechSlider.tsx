@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import styles from './TechSlider.module.scss';
 
 // Create an array of image data

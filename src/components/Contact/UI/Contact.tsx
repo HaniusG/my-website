@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styles from "./Contact.module.scss";
-import TelegramIcon from "/assets/images/logos/telegram.svg";
-import LinkedInIcon from "/assets/images/logos/linkedin.svg";
 import { Copy } from "lucide-react"; // optional, or use any other copy icon
 
 const Contact: React.FC = () => {

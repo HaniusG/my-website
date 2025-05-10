@@ -1,4 +1,3 @@
-import React from 'react'
 import Landing from '../components/Landing' 
 import Projects from '../components/Projects'
 import Works from '../components/Work'
