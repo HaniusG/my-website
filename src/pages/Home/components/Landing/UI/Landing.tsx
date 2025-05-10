@@ -1,10 +1,6 @@
 import React from "react";
 import styles from "./Landing.module.scss";
-import ProfileJpg from '@/assets/images/avatar/Profile.jpg';
-import ProfileWebp from '@/assets/images/avatar/Profile.webp'
 import Button from "@/components/Button";
-import GitHub from '@/assets/images/logos/github.svg'
-import LinkedIn from '@/assets/images/logos/linkedin.svg'
 import TechSlider from "@/components/TechSlider";
 
 const Landing = () => {
@@ -12,12 +8,12 @@ const Landing = () => {
     <div className={styles.avatarContainer}>
       <div className={styles.imgContainer}>
         <picture>
-          <source srcSet={ProfileWebp} type='image/webp' />
+          <source srcSet='/assets/images/avatar/Profile.webp' type='image/webp' />
           <img
-            src={ProfileJpg}
+            src='/assets/images/avatar/Profile.jpg'
             alt='Description of the image'
-            width='300'
-            height='300'
+            width='350'
+            height='350'
           />
         </picture>
         <p>Hi, I am</p>
@@ -29,8 +25,8 @@ const Landing = () => {
         <Button color='black' fill>Contact Info</Button>
       </div>
       <div className={styles.contactLinks}>
-        <a href="https://github.com/HaniusG" target="_blank"><img src={GitHub} alt='GitHub Link'/></a>
-        <a href="https://www.linkedin.com/in/grigor-ohanyan-90a910268/" target="_blank"><img src={LinkedIn} alt='LinkedIn Link'/></a>
+        <a href="https://github.com/HaniusG" target="_blank"><img src='/assets/images/logos/github.svg' alt='GitHub Link'/></a>
+        <a href="https://www.linkedin.com/in/grigor-ohanyan-90a910268/" target="_blank"><img src='/assets/images/logos/linkedin.svg' alt='LinkedIn Link'/></a>
       </div>
       <TechSlider/>
     </div>

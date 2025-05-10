@@ -1,0 +1,36 @@
+.projectLink {
+    max-width: 580px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    overflow: hidden;
+    filter: grayscale(0.2);
+    transition: filter 0.3s ease, transform 0.3s ease;
+    &:hover {
+        filter: grayscale(0);
+        transform: scale(1.01);
+    }
+    img {
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+    } 
+}
+
+@media screen and (max-width: 1400px) {
+    .projectLink {
+        img {
+            border-radius: 14px;
+        }
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .projectLink {
+        max-width: 100%;
+    }
+    
+}
