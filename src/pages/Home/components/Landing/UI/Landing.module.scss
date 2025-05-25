@@ -49,3 +49,43 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .avatarContainer {
+  .imgContainer {
+    img  {
+      width: 50%;
+      height: 50%;
+    }
+  }
+
+  p {
+    font-size: 17px;;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .buttonDiv {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    gap: 10px;
+  }
+
+  .contactLinks {
+    display: flex;
+    gap: 10px;
+    img {
+      transition: transform 0.3s ease, opacity 0.3s ease;
+      &:hover{
+        opacity: 0.8;
+      }
+      width: 20px;
+    }
+  }
+}
+}

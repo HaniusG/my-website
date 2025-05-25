@@ -95,3 +95,33 @@
     }
   }
 }
+
+
+@media screen and (max-width: 600px) {
+.contactSection {
+  padding: 1rem 1rem;
+}
+  
+  .header {
+    font-size: 30px;
+  }
+
+  .subheader {
+    font-size: 18px;
+  }
+
+  .email {
+    font-size: 15px;
+  }
+
+  .links {
+  a {font-size: 12px;}
+  .icon {
+    width: 15px;
+    height: 15px;}
+}
+
+.copyBtn {
+  font-size: 12px;
+}
+}
