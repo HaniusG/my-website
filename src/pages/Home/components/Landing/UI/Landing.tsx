@@ -20,7 +20,7 @@ const Landing = () => {
         <h3>Frontend React Developer</h3>
       </div>
       <div className={styles.buttonDiv}>
-        <a href='https://drive.google.com/file/d/1vEGbN-rPJBizw25gh3aOIikmUinHmwWP/view?usp=sharing' target="_blank"><Button color='black'>My CV</Button></a>
+        <a href='https://drive.google.com/file/d/1QgUBaSaFNXHxSEV2BxfNHFm0ncLPXQmv/view?usp=drive_link' target="_blank"><Button color='black'>My CV</Button></a>
         <a href='#contact'><Button color='black' fill>Contact Info</Button></a>
       </div>
       <div className={styles.contactLinks}>
