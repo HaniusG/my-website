@@ -17,12 +17,17 @@ const techLogos = [
   { src: '/assets/images/technologies/fastapi.svg', alt: 'FastAPI' },
   { src: '/assets/images/technologies/docker.svg', alt: 'Docker' },
   { src: '/assets/images/technologies/bootstrap.svg', alt: 'Bootstrap' },
-    { src: '/assets/images/technologies/tailwind.svg', alt: 'Tailwind' },
+  { src: '/assets/images/technologies/tailwind.svg', alt: 'Tailwind' },
+  { src: '/assets/images/technologies/vue.svg', alt: 'Vue.js' },
+  { src: '/assets/images/technologies/git.svg', alt: 'Git/GitHub' },
+  { src: '/assets/images/technologies/gitlab.svg', alt: 'Gitlab' },
+  { src: '/assets/images/technologies/firebase.svg', alt: 'Firebase' },
+  { src: '/assets/images/technologies/axios.svg', alt: 'Axios' },
 ]
 
 const TechSlider: React.FC = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} style={{margin: "20px 0"}}>
       <div className={styles.slider}>
         {[...techLogos, ...techLogos, ...techLogos, ...techLogos, ...techLogos].map((tech, index) => (
           <div className={styles.imgContainer}>

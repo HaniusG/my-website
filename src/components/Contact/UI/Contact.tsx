@@ -21,7 +21,7 @@ const Contact: React.FC = () => {
         <div className={styles.emailRow}>
           <span className={styles.email}>{email}</span>
           <button onClick={handleCopy} className={styles.copyBtn}>
-            <Copy size={16} />
+            <Copy size={17} />
             {copied ? "Copied!" : "Copy"}
           </button>
         </div>
