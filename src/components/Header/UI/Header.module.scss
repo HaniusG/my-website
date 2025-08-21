@@ -1,7 +1,6 @@
 .headerWrapper {
-  background-image: radial-gradient(rgb(209, 209, 209) 1px, transparent 0);
   width: 100%;
-  background-color: #f6faff;
+  background-color: #000000;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
@@ -28,6 +27,7 @@
 
     img {
       transition: transform 0.3s ease, filter 0.5s ease;
+      filter: invert(100%);
     }
 
     &:hover img {
@@ -48,7 +48,7 @@
 }
 
 .link {
-  color: #333;
+  color: #c9c9c9;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
