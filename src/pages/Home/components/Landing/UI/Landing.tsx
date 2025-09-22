@@ -37,7 +37,7 @@ const Landing = () => {
       <h2>Grigor Ohanyan</h2>
       <h3>Frontend Developer</h3>
       <div className={styles.buttonDiv}>
-        <a href='https://drive.google.com/file/d/1QgUBaSaFNXHxSEV2BxfNHFm0ncLPXQmv/view?usp=drive_link' target="_blank"><Button color='rgb(41 102 255)'>My CV</Button></a>
+        <a href='/assets/cv/OhanyanGrigor(CV).pdf' target="_blank"><Button color='rgb(41 102 255)'>My CV</Button></a>
         <a href='#contact'><Button color='rgb(41 102 255)' fill>Contact Info</Button></a>
       </div>
       <div className={styles.contactLinks}>
