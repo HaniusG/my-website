@@ -9,6 +9,7 @@ const techLogos = [
   { src: '/assets/images/technologies/css.svg', alt: 'CSS' },
   { src: '/assets/images/technologies/sass.svg', alt: 'SASS' },
   { src: '/assets/images/technologies/react.svg', alt: 'React' },
+  { src: '/assets/images/technologies/nodejs.svg', alt: 'Node.js' },
   { src: '/assets/images/technologies/redux.svg', alt: 'Redux' },
   { src: '/assets/images/technologies/python.svg', alt: 'Python' },
   { src: '/assets/images/technologies/cpp.svg', alt: 'C++' },
