@@ -23,7 +23,7 @@
 }
 
 .contactBox {
-  border: 1px solid #ddd;
+  border: 3px solid #021e6b21;
   border-radius: 16px;
   padding: 2rem;
   max-width: 600px;
@@ -42,7 +42,7 @@
 
 .email {
   font-size: 1.1rem;
-  color: #292929;
+  color: #141414;
   font-weight: bold;
 }
 
@@ -63,7 +63,7 @@
   transition: color 0.2s;
 
   &:hover {
-    color: #ececec;
+    color: #000000;
   }
 }
 
@@ -84,7 +84,7 @@
     transition: color 0.2s ease;
 
     &:hover {
-      color: #dddddd; // nice blue tone
+      color: rgb(0, 0, 0); // nice blue tone
     }
   }
 

@@ -7,6 +7,8 @@
     display: flex;
     width: 100%;
     justify-content: space-around;
+      flex-wrap: wrap;
+
   }
   h2 {
     text-align: center;
@@ -16,7 +18,8 @@
 }
 
 .projectDiv {
-  max-width: 580px;
+  width: 580px;
+  margin-bottom: 30px;
   h3 {
     margin: 8px 0;
     font-size: 25px;
